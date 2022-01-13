@@ -55,7 +55,7 @@ begin
        2: DataModule1.FDQuery1.Open('select * from lembreteBD where DescricaoLembrete like '+ QuotedStr('%' + EdPesquisar.Text + '%'));
        3: DataModule1.FDQuery1.Open('select * from lembreteBD where DataLembrete like '+ QuotedStr('%' + EdPesquisar.Text + '%'));
     end
-
+  //
  end;
 
 end.
